@@ -12,7 +12,7 @@ fs.writeFileSync('output1.txt', "");
 
 const main = async () => {
     let i = 0;
-    let step = 10;
+    let step = 50;
     for (; i < 90000; i += step) {
         console.log(i);
         let indexes = [];
